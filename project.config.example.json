@@ -1,0 +1,9 @@
+{
+  "github-personal-access-token": "",
+  "docker-hub-personal-access-token": "",
+  "jenkins-username": "",
+  "jenkins-password": "",
+  "strapi-email": "",
+  "strapi-password": "",
+  "postgres-password": ""
+}

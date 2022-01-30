@@ -4,8 +4,8 @@ FROM node:${NODE_VERSION}
 
 WORKDIR /usr/src/app
 
-COPY package.json package.json
+COPY ./package*.json ./
 
-COPY lerna.json lerna.json
+RUN npm install
 
-RUN npm run bootstrap
+COPY ./lerna.json ./

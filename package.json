@@ -1,6 +1,4 @@
 {
-  "name": "@ajoel24/byzantium",
-  "description": "My portfolio website developed using Next.js and Strapi",
   "private": true,
   "author": {
     "name": "Andrew Joel",
@@ -28,6 +26,12 @@
   "scripts": {
     "prepare": "husky install",
     "bootstrap": "npm install; lerna bootstrap",
+    "build:api": "npm --prefix ./packages/api build",
+    "start:api": "npm --prefix ./packages/api start",
+    "develop:api": "npm --prefix ./packages/api run develop",
+    "build:ui": "npm --prefix ./packages/ui build",
+    "dev:ui": "npm --prefix ./packages/ui run dev",
+    "lint": "prettier -cw .",
     "lint:check": "prettier -c .",
     "lint:write": "prettier -w ."
   }

@@ -1,0 +1,12 @@
+**/node_modules
+.env
+.env.development
+.env.production
+.env.development.example
+.env.production.example
+.env.example
+.editorconfig
+.eslintignore
+.eslintrc
+public/uploads
+.git

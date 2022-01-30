@@ -1,0 +1,12 @@
+.husky
+database
+node_modules
+packages
+scripts
+.eslint*
+.gitignore
+.git
+.prettier*
+LICENSE
+project-config*
+README.md
