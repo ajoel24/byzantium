@@ -1,0 +1,31 @@
+version: '3.7'
+
+services:
+  postgres_db:
+    image: postgres:14.1
+    container_name: postgres_db
+    hostname: postgres_db
+    restart: unless-stopped
+    ports:
+      - '${POSTGRES_PORT}:5432'
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - './data/:/var/lib/postgresql/data'
+    networks:
+      - byzantium_network
+
+  postgres_adminer:
+    image: adminer
+    container_name: postgres_adminer
+    hostname: postgres_adminer
+    restart: unless-stopped
+    ports:
+      - '${ADMINER_PORT}:8080'
+    networks:
+      - byzantium_network
+
+networks:
+  byzantium_network:
+    external: true
