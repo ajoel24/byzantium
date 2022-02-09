@@ -26,8 +26,8 @@
   "scripts": {
     "prepare": "husky install",
     "bootstrap": "npm install; lerna bootstrap",
-    "build:api": "npm --prefix ./packages/api build",
-    "start:api": "npm --prefix ./packages/api start",
+    "build:api": "npm --prefix ./packages/api run build",
+    "start:api": "npm --prefix ./packages/api run start",
     "develop:api": "npm --prefix ./packages/api run develop",
     "build:ui": "npm --prefix ./packages/ui build",
     "dev:ui": "npm --prefix ./packages/ui run dev",

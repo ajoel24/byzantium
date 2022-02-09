@@ -5,5 +5,4 @@ module.exports = ({ env }) => ({
   host: env('HOST'),
   port: env.int('PORT'),
   serveAdminPanel: env.bool('SERVE_ADMIN', true),
-  url: env('ADMIN_URL'),
 });

@@ -1,10 +1,10 @@
 {
-  "name": "api",
+  "name": "hello",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop --watch-admin",
+    "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
@@ -20,7 +20,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "557ced81-28c6-4433-9818-45c61d3f22ae"
+    "uuid": "87b29496-006e-4f28-9793-af764788dc02"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
