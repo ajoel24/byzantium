@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  byzantium_api:
+    build:
+      context: .
+      args:
+        NODE_ENV: development
+    container_name: byzantium_api
+    hostname: byzantium_api
+    ports:
+      - '1337:1337'
+    env_file: .env
+    networks:
+      - byzantium_network
+
+networks:
+  byzantium_network:
+    external: true

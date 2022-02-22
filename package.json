@@ -10,6 +10,7 @@
     "@typescript-eslint/parser": "^5.10.1",
     "eslint": "^8.8.0",
     "eslint-config-airbnb": "^19.0.4",
+    "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
@@ -31,6 +32,7 @@
     "develop:api": "npm --prefix ./packages/api run develop",
     "build:ui": "npm --prefix ./packages/ui build",
     "dev:ui": "npm --prefix ./packages/ui run dev",
+    "build:libs:graphql-client": "npm --prefix packages/libs/graphql-client run build",
     "lint": "prettier -cw .",
     "lint:check": "prettier -c .",
     "lint:write": "prettier -w ."

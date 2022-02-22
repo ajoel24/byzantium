@@ -1,2 +1,3 @@
 **/node_modules
 **/database
+packages/libs/graphql-client/src/generated/graphql.ts

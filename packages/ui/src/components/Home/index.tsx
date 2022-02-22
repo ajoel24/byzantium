@@ -1,4 +1,5 @@
 import { Button } from 'rsuite';
+import { Article, Category } from '@byzantium/graphql-client';
 
 function Home() {
   return (

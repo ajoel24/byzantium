@@ -1,0 +1,10 @@
+query ArticlesQuery {
+  articles {
+    data {
+      attributes {
+        body
+        title
+      }
+    }
+  }
+}

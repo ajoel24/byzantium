@@ -1,0 +1,29 @@
+{
+  "name": "@byzantium/graphql-client",
+  "version": "1.0.0",
+  "description": "GraphQL Client for fetching API requests",
+  "main": "lib/index.js",
+  "scripts": {
+    "codegen": "graphql-codegen --config codegen.yml",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Andrew Joel",
+    "email": "drew.devops@gmail.com",
+    "url": "https://andrew-joel.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@graphql-codegen/cli": "2.6.1",
+    "@graphql-codegen/introspection": "2.1.1",
+    "@graphql-codegen/typescript": "2.4.3",
+    "@graphql-codegen/typescript-operations": "2.3.0",
+    "@graphql-codegen/typescript-react-apollo": "3.2.5",
+    "graphql": "^16.3.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.8"
+  }
+}

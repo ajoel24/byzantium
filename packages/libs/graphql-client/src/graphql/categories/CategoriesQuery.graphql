@@ -1,0 +1,11 @@
+query CategoriesQuery {
+  categories {
+    data {
+      attributes {
+        type
+        slug
+        description
+      }
+    }
+  }
+}

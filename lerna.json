@@ -1,4 +1,9 @@
 {
-  "packages": ["packages/**"],
+  "packages": [
+    "packages/api",
+    "packages/libs/graphql-client",
+    "packages/plugins/**",
+    "packages/ui"
+  ],
   "version": "0.0.0"
 }
